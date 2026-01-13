@@ -62,7 +62,7 @@ export const Hero = () => {
             </p>
 
             <p className="text-base text-muted">
-              Für Männer & Frauen, Jugendliche und Menschen mit Stress, innerer Unruhe oder dem Gefühl festzustecken.
+              Für Frauen, Jugendliche und Menschen mit Stress, innerer Unruhe oder dem Gefühl festzustecken.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4">

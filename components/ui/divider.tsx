@@ -5,7 +5,7 @@ export const Divider = () => {
     <div className="py-16 lg:py-24">
       <div className="flex justify-center">
         <Image
-          src="/divider-panzer.webp"
+          src="/divider_sun.png"
           alt="Divider"
           width={600}
           height={5}
