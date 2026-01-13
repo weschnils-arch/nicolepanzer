@@ -80,7 +80,7 @@ export const Hero = () => {
                 size="lg"
                 className="w-full sm:w-auto whitespace-nowrap bg-card backdrop-blur-sm border-0 text-accent hover:bg-accent hover:text-white h-[56px] sm:h-auto text-sm sm:text-base"
               >
-                So läuft es ab
+                Das erwartet dich
               </Button>
             </div>
           </motion.div>
