@@ -28,6 +28,12 @@ yarn-error.log*
 # vercel
 .vercel
 
+# Keep original images (WebP versions are used in production)
+*.jpg
+*.jpeg
+*.png
+!favicon.png
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
