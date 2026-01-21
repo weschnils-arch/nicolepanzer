@@ -9,7 +9,7 @@ export const Footer = () => {
     <footer className="bg-text text-white py-10 lg:py-14">
       <div className="max-w-[1040px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-          {/* Left: Text + Kontakt */}
+          {/* Left: Schriftzug + Kontakt + Social Media */}
           <div className="flex flex-col">
             <Image
               src="/Lovme_schriftzug.png"
@@ -39,6 +39,34 @@ export const Footer = () => {
                 lovme.at
               </a>
             </div>
+
+            {/* Social Media unter lovme.at, linksbündig */}
+            <div className="mt-6">
+              <h4 className="text-sm font-semibold mb-4">Social Media</h4>
+              <div className="flex gap-4">
+                <a
+                  href="#"
+                  className="opacity-80 hover:opacity-100 transition-opacity"
+                  aria-label="Facebook"
+                >
+                  <Facebook className="h-5 w-5" />
+                </a>
+                <a
+                  href="#"
+                  className="opacity-80 hover:opacity-100 transition-opacity"
+                  aria-label="Instagram"
+                >
+                  <Instagram className="h-5 w-5" />
+                </a>
+                <a
+                  href="#"
+                  className="opacity-80 hover:opacity-100 transition-opacity"
+                  aria-label="LinkedIn"
+                >
+                  <Linkedin className="h-5 w-5" />
+                </a>
+              </div>
+            </div>
           </div>
 
           {/* Center: Großes rundes Logo, vertikal mittig */}
@@ -52,7 +80,7 @@ export const Footer = () => {
             />
           </div>
 
-          {/* Right: Navigation + Rechtliches + Social, rechtsbündig */}
+          {/* Right: Navigation + Rechtliches, rechtsbündig */}
           <div className="flex flex-col gap-6 md:items-end md:text-right">
             {/* Navigation + Rechtliches nebeneinander auf der rechten Seite */}
             <div className="flex flex-col md:flex-row md:gap-12 md:justify-end md:text-right">
@@ -105,32 +133,6 @@ export const Footer = () => {
               </div>
             </div>
 
-            <div>
-              <h4 className="text-sm font-semibold mb-4">Social Media</h4>
-              <div className="flex gap-4 md:justify-end">
-                <a
-                  href="#"
-                  className="opacity-80 hover:opacity-100 transition-opacity"
-                  aria-label="Facebook"
-                >
-                  <Facebook className="h-5 w-5" />
-                </a>
-                <a
-                  href="#"
-                  className="opacity-80 hover:opacity-100 transition-opacity"
-                  aria-label="Instagram"
-                >
-                  <Instagram className="h-5 w-5" />
-                </a>
-                <a
-                  href="#"
-                  className="opacity-80 hover:opacity-100 transition-opacity"
-                  aria-label="LinkedIn"
-                >
-                  <Linkedin className="h-5 w-5" />
-                </a>
-              </div>
-            </div>
           </div>
         </div>
 
