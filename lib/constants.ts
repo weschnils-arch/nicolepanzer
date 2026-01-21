@@ -9,7 +9,7 @@ export const navItems = [
 
 export const trustChips = [
   { text: "Seit 2011 selbstständig", icon: "calendar" },
-  { text: "Yoga • Nervensystem • Mentoring", icon: "heart" },
+  { text: "Kinesiologie • Nervensystem • Mentoring", icon: "heart" },
   { text: "Online und vor Ort möglich", icon: "globe" },
 ];
 
