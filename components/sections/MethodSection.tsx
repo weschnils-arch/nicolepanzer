@@ -75,27 +75,6 @@ export const MethodSection = () => {
           </div>
         </div>
 
-        {/* Additional Image: Spinal Massage */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-          className="mb-12"
-        >
-          <Card className="overflow-hidden">
-            <div className="relative aspect-[16/9] w-full">
-              <Image
-                src="/spinal-massage.webp"
-                alt="Yoga und Körperarbeit - zurück in den Körper"
-                fill
-                className="object-cover"
-                quality={90}
-              />
-            </div>
-          </Card>
-        </motion.div>
-
         {/* Leitsatz Quote Card */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}

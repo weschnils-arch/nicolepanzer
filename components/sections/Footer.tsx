@@ -9,11 +9,11 @@ export const Footer = () => {
       <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
-            <h3 className="text-xl font-serif font-semibold mb-4">
-              Nicole Angelika Panzer
+            <h3 className="text-xl font-serif font-semibold mb-1 text-gold">
+              LOVME
             </h3>
             <p className="text-sm opacity-80 mb-4">
-              Lov Me - Finde deine wahre Essenz
+              mit Nicole Angelika Panzer · Finde deine wahre Essenz
             </p>
             <div className="space-y-2 text-sm opacity-80">
               <a

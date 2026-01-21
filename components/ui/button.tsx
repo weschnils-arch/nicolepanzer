@@ -12,9 +12,9 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     return (
       <button
         className={cn(
-          "inline-flex items-center justify-center rounded-full font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-accent whitespace-nowrap",
+          "inline-flex items-center justify-center rounded-full font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 whitespace-nowrap",
           {
-            "bg-accent text-white hover:bg-accent/90 focus:ring-accent":
+            "bg-gradient-to-r from-gold to-[#eeba2c] text-text hover:from-[#eeba2c] hover:to-gold focus:ring-gold":
               variant === "primary",
             "bg-gold text-white hover:bg-gold/90 focus:ring-gold":
               variant === "secondary",

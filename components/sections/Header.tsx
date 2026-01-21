@@ -58,13 +58,13 @@ export const Header = () => {
               e.preventDefault();
               window.scrollTo({ top: 0, behavior: "smooth" });
             }}
-            className="text-accent hover:text-accent/80 transition-colors flex-shrink-0 leading-none"
+            className="flex flex-col items-start text-gold hover:text-gold/90 transition-colors flex-shrink-0 leading-none"
           >
             <span className="block text-2xl font-serif font-semibold leading-none">
-              LOV ME
+              LOVME
             </span>
             <span className="block text-sm font-medium text-text/80 leading-none mt-1">
-              Nicole Angelika Panzer
+              mit Nicole Angelika Panzer
             </span>
           </a>
 
