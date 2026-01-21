@@ -62,11 +62,11 @@ export const Header = () => {
             className="flex items-center flex-shrink-0"
           >
             <Image
-              src="/Lovme.png"
+              src="/Lovme_header.png"
               alt="Lovme – Nicole Angelika Panzer"
-              width={80}
-              height={80}
-              className="h-12 w-12 sm:h-14 sm:w-14 object-contain"
+              width={120}
+              height={40}
+              className="h-8 sm:h-10 w-auto object-contain"
               priority
             />
           </a>
