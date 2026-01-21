@@ -6,8 +6,8 @@ import { Facebook, Instagram, Linkedin, Mail, Globe } from "lucide-react";
 
 export const Footer = () => {
   return (
-    <footer className="bg-text text-white py-12 lg:py-16">
-      <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
+    <footer className="bg-text text-white py-10 lg:py-14">
+      <div className="max-w-[1040px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Left: Text + Kontakt */}
           <div className="flex flex-col">
@@ -54,52 +54,55 @@ export const Footer = () => {
 
           {/* Right: Navigation + Rechtliches + Social, rechtsbündig */}
           <div className="flex flex-col gap-6 md:items-end md:text-right">
-            <div>
-              <h4 className="text-sm font-semibold mb-4">Navigation</h4>
-              <ul className="space-y-2 text-sm opacity-80">
-                <li>
-                  <Link href="/#angebot" className="hover:opacity-100 transition-opacity">
-                    Angebot
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/#methode" className="hover:opacity-100 transition-opacity">
-                    Methode
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/#ablauf" className="hover:opacity-100 transition-opacity">
-                    Ablauf
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/#kontakt" className="hover:opacity-100 transition-opacity">
-                    Kontakt
-                  </Link>
-                </li>
-              </ul>
-            </div>
+            {/* Navigation + Rechtliches nebeneinander auf der rechten Seite */}
+            <div className="flex flex-col md:flex-row md:gap-12 md:justify-end md:text-right">
+              <div className="mb-6 md:mb-0">
+                <h4 className="text-sm font-semibold mb-4">Navigation</h4>
+                <ul className="space-y-2 text-sm opacity-80">
+                  <li>
+                    <Link href="/#angebot" className="hover:opacity-100 transition-opacity">
+                      Angebot
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/#methode" className="hover:opacity-100 transition-opacity">
+                      Methode
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/#ablauf" className="hover:opacity-100 transition-opacity">
+                      Ablauf
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/#kontakt" className="hover:opacity-100 transition-opacity">
+                      Kontakt
+                    </Link>
+                  </li>
+                </ul>
+              </div>
 
-            <div>
-              <h4 className="text-sm font-semibold mb-4">Rechtliches</h4>
-              <ul className="space-y-2 text-sm opacity-80">
-                <li>
-                  <Link
-                    href="/impressum"
-                    className="hover:opacity-100 transition-opacity"
-                  >
-                    Impressum
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/datenschutz"
-                    className="hover:opacity-100 transition-opacity"
-                  >
-                    Datenschutz
-                  </Link>
-                </li>
-              </ul>
+              <div>
+                <h4 className="text-sm font-semibold mb-4">Rechtliches</h4>
+                <ul className="space-y-2 text-sm opacity-80">
+                  <li>
+                    <Link
+                      href="/impressum"
+                      className="hover:opacity-100 transition-opacity"
+                    >
+                      Impressum
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/datenschutz"
+                      className="hover:opacity-100 transition-opacity"
+                    >
+                      Datenschutz
+                    </Link>
+                  </li>
+                </ul>
+              </div>
             </div>
 
             <div>
