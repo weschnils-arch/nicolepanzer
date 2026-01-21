@@ -8,24 +8,26 @@ export const Footer = () => {
   return (
     <footer className="bg-text text-white py-12 lg:py-16">
       <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+        {/* Centered large round logo */}
+        <div className="flex justify-center mb-10">
+          <Image
+            src="/Lovme.png"
+            alt="Lovme Logo"
+            width={200}
+            height={200}
+            className="h-28 w-28 md:h-40 md:w-40 object-contain"
+          />
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
-            <div className="flex items-center gap-3 mb-2">
-              <Image
-                src="/Lovme.png"
-                alt="Lovme Logo"
-                width={100}
-                height={100}
-                className="h-20 w-20 object-contain"
-              />
-              <Image
-                src="/Lovme_schriftzug.png"
-                alt="LOVME Schriftzug"
-                width={140}
-                height={36}
-                className="h-8 w-auto object-contain"
-              />
-            </div>
+            <Image
+              src="/Lovme_schriftzug.png"
+              alt="LOVME Schriftzug"
+              width={160}
+              height={40}
+              className="h-8 w-auto object-contain mb-3"
+            />
             <p className="text-sm opacity-80 mb-4">
               mit Nicole Angelika Panzer · Finde deine wahre Essenz
             </p>
@@ -75,52 +77,54 @@ export const Footer = () => {
             </ul>
           </div>
 
-          <div>
-            <h4 className="text-sm font-semibold mb-4">Rechtliches</h4>
-            <ul className="space-y-2 text-sm opacity-80">
-              <li>
-                <Link
-                  href="/impressum"
-                  className="hover:opacity-100 transition-opacity"
-                >
-                  Impressum
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/datenschutz"
-                  className="hover:opacity-100 transition-opacity"
-                >
-                  Datenschutz
-                </Link>
-              </li>
-            </ul>
-          </div>
+          <div className="flex flex-col gap-6 md:items-end md:text-right">
+            <div>
+              <h4 className="text-sm font-semibold mb-4">Rechtliches</h4>
+              <ul className="space-y-2 text-sm opacity-80">
+                <li>
+                  <Link
+                    href="/impressum"
+                    className="hover:opacity-100 transition-opacity"
+                  >
+                    Impressum
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/datenschutz"
+                    className="hover:opacity-100 transition-opacity"
+                  >
+                    Datenschutz
+                  </Link>
+                </li>
+              </ul>
+            </div>
 
-          <div>
-            <h4 className="text-sm font-semibold mb-4">Social Media</h4>
-            <div className="flex gap-4">
-              <a
-                href="#"
-                className="opacity-80 hover:opacity-100 transition-opacity"
-                aria-label="Facebook"
-              >
-                <Facebook className="h-5 w-5" />
-              </a>
-              <a
-                href="#"
-                className="opacity-80 hover:opacity-100 transition-opacity"
-                aria-label="Instagram"
-              >
-                <Instagram className="h-5 w-5" />
-              </a>
-              <a
-                href="#"
-                className="opacity-80 hover:opacity-100 transition-opacity"
-                aria-label="LinkedIn"
-              >
-                <Linkedin className="h-5 w-5" />
-              </a>
+            <div>
+              <h4 className="text-sm font-semibold mb-4">Social Media</h4>
+              <div className="flex gap-4 md:justify-end">
+                <a
+                  href="#"
+                  className="opacity-80 hover:opacity-100 transition-opacity"
+                  aria-label="Facebook"
+                >
+                  <Facebook className="h-5 w-5" />
+                </a>
+                <a
+                  href="#"
+                  className="opacity-80 hover:opacity-100 transition-opacity"
+                  aria-label="Instagram"
+                >
+                  <Instagram className="h-5 w-5" />
+                </a>
+                <a
+                  href="#"
+                  className="opacity-80 hover:opacity-100 transition-opacity"
+                  aria-label="LinkedIn"
+                >
+                  <Linkedin className="h-5 w-5" />
+                </a>
+              </div>
             </div>
           </div>
         </div>
