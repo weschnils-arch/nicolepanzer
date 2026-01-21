@@ -46,9 +46,9 @@ export const Hero = () => {
           <Image
             src="/Lovme.png"
             alt="Lovme Logo"
-            width={260}
-            height={260}
-            className="w-40 sm:w-52 lg:w-64 h-auto opacity-85"
+            width={300}
+            height={300}
+            className="w-44 sm:w-56 lg:w-72 h-auto opacity-85 -translate-y-[20%] -translate-x-[15%]"
             priority
           />
         </div>
