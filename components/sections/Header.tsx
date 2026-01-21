@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { navItems } from "@/lib/constants";
 import { cn } from "@/lib/utils";
-import Image from "next/image";
 
 export const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -61,14 +60,9 @@ export const Header = () => {
             }}
             className="flex items-center flex-shrink-0"
           >
-            <Image
-              src="/Lovme_header.png"
-              alt="Lovme – Nicole Angelika Panzer"
-              width={120}
-              height={40}
-              className="h-8 sm:h-10 w-auto object-contain"
-              priority
-            />
+            <span className="text-2xl sm:text-3xl font-bodoni font-semibold text-text hover:text-accent transition-colors">
+              LOVME
+            </span>
           </a>
 
           {/* Desktop Nav + CTA - Right aligned */}

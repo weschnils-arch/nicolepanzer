@@ -19,6 +19,7 @@ const config: Config = {
       fontFamily: {
         serif: ['"Playfair Display"', "serif"],
         sans: ['"Inter"', "sans-serif"],
+        bodoni: ['"Bodoni Moda"', "serif"],
       },
       borderRadius: {
         card: "24px",
