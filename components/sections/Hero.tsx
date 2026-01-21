@@ -48,7 +48,7 @@ export const Hero = () => {
             alt="Lovme Logo"
             width={300}
             height={300}
-            className="w-44 sm:w-56 lg:w-72 h-auto opacity-85 -translate-y-[40%] -translate-x-[15%]"
+            className="w-44 sm:w-56 lg:w-72 h-auto opacity-85 -translate-y-[70%] -translate-x-[15%]"
             priority
           />
         </div>
