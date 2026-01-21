@@ -14,9 +14,9 @@ export const Footer = () => {
               <Image
                 src="/Lovme.png"
                 alt="Lovme Logo"
-                width={40}
-                height={40}
-                className="h-10 w-10 object-contain"
+                width={72}
+                height={72}
+                className="h-14 w-14 object-contain"
               />
               <h3 className="text-xl font-serif font-semibold text-gold">
                 LOVME
