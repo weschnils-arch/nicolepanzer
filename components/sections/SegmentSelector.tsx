@@ -41,13 +41,13 @@ export const SegmentSelector = () => {
                       {content.subtitle}
                     </p>
                   )}
-                  <div className="mb-4 lg:min-h-[120px] flex flex-col justify-start">
+                  <div className="mb-8 lg:min-h-[140px] flex flex-col justify-start">
                     <p className="text-lg text-muted leading-relaxed">
                       {content.description}
                     </p>
                   </div>
 
-                  <div className="space-y-4 mb-8 flex-1">
+                  <div className="space-y-4 mb-8">
                     {content.benefits.map((benefit, index) => (
                       <div key={index} className="flex items-start gap-3">
                       <div className="mt-1 flex-shrink-0">
