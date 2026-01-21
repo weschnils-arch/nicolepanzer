@@ -33,7 +33,7 @@ export const ProcessSection = () => {
                 <CardContent className="p-5 lg:p-6">
                   <div className="flex flex-col gap-4 mb-4">
                     <div className="flex flex-col items-start gap-3">
-                      <div className="flex-shrink-0 w-12 h-12 rounded-full bg-accent text-white flex items-center justify-center font-serif font-semibold text-xl border border-[#eeba2c]">
+                      <div className="flex-shrink-0 w-12 h-12 rounded-full bg-accent text-[#eeba2c] flex items-center justify-center font-serif font-semibold text-xl border border-[#eeba2c]">
                         {step.number}
                       </div>
                       <CardTitle className="text-base lg:text-lg mb-0 break-words leading-tight">
