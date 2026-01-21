@@ -36,7 +36,7 @@ export const OfferSection = () => {
                     <Icon
                       name={feature.icon}
                       size={40}
-                      className="text-accent"
+                      className="text-gold"
                     />
                   </div>
                   <CardTitle className="text-xl mb-2">{feature.title}</CardTitle>
@@ -61,7 +61,7 @@ export const OfferSection = () => {
                 {offerDetails.items.map((item, index) => (
                   <div key={index} className="flex items-start gap-3">
                     <div className="mt-1 flex-shrink-0">
-                      <Icon name={item.icon} size={20} className="text-accent" />
+                      <Icon name={item.icon} size={20} className="text-gold" />
                     </div>
                     <p className="text-text leading-relaxed text-lg">
                       {item.text}

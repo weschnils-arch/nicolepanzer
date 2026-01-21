@@ -101,8 +101,14 @@ export const Hero = () => {
               key={index}
               className="flex items-center gap-2"
             >
-              <Icon name={chip.icon} size={18} className="text-accent" />
-              <span className="text-sm text-text font-medium">{chip.text}</span>
+              <Icon
+                name={chip.icon}
+                size={18}
+                className="text-gold"
+              />
+              <span className="text-sm text-text font-medium">
+                {chip.text}
+              </span>
             </div>
           ))}
         </motion.div>

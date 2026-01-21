@@ -77,7 +77,7 @@ export const BurnoutSection = () => {
                   {burnoutSection.program.items.map((item, index) => (
                     <div key={index} className="flex items-start gap-3">
                       <div className="mt-1 flex-shrink-0">
-                        <Icon name={item.icon} size={20} className="text-accent" />
+                        <Icon name={item.icon} size={20} className="text-gold" />
                       </div>
                       <p className="text-text leading-relaxed">
                         {item.text}

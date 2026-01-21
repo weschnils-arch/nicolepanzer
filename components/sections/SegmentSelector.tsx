@@ -43,8 +43,12 @@ export const SegmentSelector = () => {
                   <div className="space-y-4 mb-8 flex-1">
                     {content.benefits.map((benefit, index) => (
                       <div key={index} className="flex items-start gap-3">
-                        <div className="mt-1 flex-shrink-0">
-                          <Icon name={benefit.icon} size={20} className="text-accent" />
+                      <div className="mt-1 flex-shrink-0">
+                          <Icon
+                            name={benefit.icon}
+                            size={20}
+                            className="text-gold"
+                          />
                         </div>
                         <p className="text-text leading-relaxed break-words">{benefit.text}</p>
                       </div>
