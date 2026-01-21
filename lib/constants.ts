@@ -18,7 +18,7 @@ export const segmentOptions = {
     title: "Finde deine wahre Essenz",
     subtitle: "Mentoring für Identität und Selbstentdeckung",
     description:
-      "Viele Menschen verlieren sich im Alltag und verlieren den Kontakt zu ihren eigenen Wünschen und Zielen. Du fragst dich, wer du wirklich bist und was dein Leben erfüllend macht? Mein Mentoring-Programm hilft dir, deine innere Stimme wiederzufinden und dein volles Potenzial zu entfalten. Durch bewährte Methoden aus Yoga, Kinesiologie und energetischer Arbeit begleite ich dich auf dem Weg zu mehr Selbstvertrauen, Klarheit und authentischer Selbstliebe.",
+      "Fühlst du dich im Alltag verloren und fragst dich, wer du wirklich bist? Mein Mentoring-Programm begleitet dich auf dem Weg zu deiner wahren Essenz, mehr Klarheit und authentischer Selbstliebe.",
     benefits: [
       {
         text: "Alte Muster loslassen und neue Wege gehen",
@@ -46,7 +46,7 @@ export const segmentOptions = {
     title: "Burnout-Prävention",
     subtitle: "Stressmanagement für mehr Lebensqualität",
     description:
-      "Fühlst du dich ständig überfordert, ausgebrannt und verlierst die Freude am Leben? Du funktionierst nur noch, statt wirklich zu leben? Burnout ist ein Zeichen dafür, dass dein Körper und deine Seele um Hilfe rufen. Mein Präventions- und Regenerationsprogramm unterstützt dich dabei, Burnout-Anzeichen frühzeitig zu erkennen und wirksame Gegenstrategien zu entwickeln. Mit energetischer Reinigung, praktischen Stressabbau-Techniken und individueller Begleitung findest du zurück zu deiner Balance und Lebensenergie.",
+      "Wenn der Alltag deine Energie raubt und du nur noch funktionierst, statt wirklich zu leben, ist es Zeit für eine Veränderung. Mein Präventionsprogramm hilft dir, mit wirksamen Strategien zurück in deine Balance und Lebensenergie zu finden.",
     benefits: [
       {
         text: "Frühzeitige Erkennung von Burnout-Anzeichen",

@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { segmentOptions } from "@/lib/constants";
@@ -9,8 +8,6 @@ import Image from "next/image";
 
 export const SegmentSelector = () => {
   const segments: Array<"essenz" | "energie"> = ["essenz", "energie"];
-  const [expandedEssenz, setExpandedEssenz] = useState(false);
-  const [expandedEnergie, setExpandedEnergie] = useState(false);
 
   const handleCtaClick = () => {
     const element = document.querySelector("#kontakt");
@@ -44,40 +41,10 @@ export const SegmentSelector = () => {
                       {content.subtitle}
                     </p>
                   )}
-                  <div className="mb-4 lg:min-h-[112px] flex flex-col justify-start">
-                    <p
-                      className="text-lg text-muted leading-relaxed"
-                      style={{
-                        display: expandedEssenz && isEssenz || expandedEnergie && !isEssenz
-                          ? "block"
-                          : "-webkit-box",
-                        WebkitLineClamp: expandedEssenz && isEssenz || expandedEnergie && !isEssenz
-                          ? undefined
-                          : 2,
-                        WebkitBoxOrient: expandedEssenz && isEssenz || expandedEnergie && !isEssenz
-                          ? undefined
-                          : "vertical",
-                        overflow: expandedEssenz && isEssenz || expandedEnergie && !isEssenz
-                          ? "visible"
-                          : "hidden",
-                      }}
-                    >
+                  <div className="mb-4 lg:min-h-[120px] flex flex-col justify-start">
+                    <p className="text-lg text-muted leading-relaxed">
                       {content.description}
                     </p>
-                    <div
-                      className="mt-3 text-center text-sm text-muted cursor-pointer hover:text-accent transition-colors"
-                      onClick={() => {
-                        if (isEssenz) {
-                          setExpandedEssenz(!expandedEssenz);
-                        } else {
-                          setExpandedEnergie(!expandedEnergie);
-                        }
-                      }}
-                    >
-                      {(expandedEssenz && isEssenz) || (expandedEnergie && !isEssenz)
-                        ? "Weniger anzeigen"
-                        : "Mehr anzeigen"}
-                    </div>
                   </div>
 
                   <div className="space-y-4 mb-8 flex-1">
