@@ -197,7 +197,6 @@ export const processSteps = [
 export const aboutNicole = {
   title: "Über mich",
   story: "Nach Jahren in der Modebranche und einem Burnout Anfang 30, alleinerziehend mit meiner Tochter, fand ich meinen Weg zurück zu mir selbst. Seit 2011 bin ich selbstständig und helfe anderen Menschen dabei, ihre wahre Essenz zu finden. 2019 zog ich nach Österreich. 'Lov Me' steht für Selbstliebe – nicht im oberflächlichen Sinne, sondern als tiefe Verbindung zu dem, was wirklich da ist.",
-  values: ["Nachhaltig statt Quick Fix.", "Keine Abhängigkeit, sondern Eigenverantwortung.", "Du gehst deinen Weg – ich begleite dich dabei."],
 };
 
 export const testimonials = [

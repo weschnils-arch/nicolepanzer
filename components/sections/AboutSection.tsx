@@ -22,15 +22,23 @@ export const AboutSection = () => {
             <p className="text-lg text-muted leading-relaxed mb-8">
               {aboutNicole.story}
             </p>
-            <div className="flex flex-wrap gap-3">
-              {aboutNicole.values.map((value, index) => (
-                <span
-                  key={index}
-                  className="inline-block bg-card backdrop-blur-sm rounded-full px-4 py-2 border border-white/50 text-sm font-medium text-text"
-                >
-                  {value}
-                </span>
-              ))}
+
+            <div className="space-y-4">
+              <p className="text-base text-muted">
+                Unterstützung des Wohlbefindens im eigenen Körper.
+              </p>
+
+              <p className="text-text font-semibold tracking-wide">
+                MIND BODY SOUL.
+              </p>
+
+              <ul className="space-y-2 text-sm text-text">
+                <li>Dipl. Energetikerin</li>
+                <li>Dipl. Kinesiologin</li>
+                <li>Dipl. Yoga &amp; Achtsamkeits Lehrerin</li>
+                <li>Dipl. KinderYoga Lehrerin</li>
+                <li>Reiki Master</li>
+              </ul>
             </div>
           </motion.div>
 

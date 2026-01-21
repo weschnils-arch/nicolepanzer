@@ -58,9 +58,14 @@ export const Header = () => {
               e.preventDefault();
               window.scrollTo({ top: 0, behavior: "smooth" });
             }}
-            className="text-2xl font-serif font-semibold text-accent hover:text-accent/80 transition-colors flex-shrink-0 leading-none"
+            className="text-accent hover:text-accent/80 transition-colors flex-shrink-0 leading-none"
           >
-            Nicole Angelika Panzer
+            <span className="block text-2xl font-serif font-semibold leading-none">
+              LOV ME
+            </span>
+            <span className="block text-sm font-medium text-text/80 leading-none mt-1">
+              Nicole Angelika Panzer
+            </span>
           </a>
 
           {/* Desktop Nav + CTA - Right aligned */}
