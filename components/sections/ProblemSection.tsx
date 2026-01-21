@@ -60,7 +60,7 @@ export const ProblemSection = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: index * 0.1 }}
             >
-              <Card className="h-full hover:shadow-card transition-shadow duration-200 bg-white/10 backdrop-blur-sm border-white/20">
+              <Card className="h-full bg-white/10 backdrop-blur-sm border border-white/15 hover:border-[#eeba2c] hover:bg-white/15 hover:shadow-[0_0_32px_rgba(238,186,44,0.45)] transition-all duration-200">
                 <CardContent className="p-6">
                   <div className="flex items-start gap-4">
                     <div className="flex-shrink-0 mt-1">
