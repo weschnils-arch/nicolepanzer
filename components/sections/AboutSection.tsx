@@ -28,7 +28,7 @@ export const AboutSection = () => {
                 Unterstützung des Wohlbefindens im eigenen Körper.
               </p>
 
-              <p className="text-text font-semibold tracking-wide">
+              <p className="text-[#eeba2c] font-semibold tracking-wide">
                 MIND BODY SOUL.
               </p>
 
