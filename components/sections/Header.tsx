@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { navItems } from "@/lib/constants";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 
 export const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -58,14 +59,16 @@ export const Header = () => {
               e.preventDefault();
               window.scrollTo({ top: 0, behavior: "smooth" });
             }}
-            className="flex flex-col items-start text-gold hover:text-gold/90 transition-colors flex-shrink-0 leading-none"
+            className="flex items-center flex-shrink-0"
           >
-            <span className="block text-2xl font-serif font-semibold leading-none">
-              LOVME
-            </span>
-            <span className="block text-sm font-medium text-text/80 leading-none mt-1">
-              mit Nicole Angelika Panzer
-            </span>
+            <Image
+              src="/Lovme.png"
+              alt="Lovme – Nicole Angelika Panzer"
+              width={80}
+              height={80}
+              className="h-12 w-12 sm:h-14 sm:w-14 object-contain"
+              priority
+            />
           </a>
 
           {/* Desktop Nav + CTA - Right aligned */}
