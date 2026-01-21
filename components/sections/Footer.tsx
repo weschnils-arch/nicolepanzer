@@ -14,13 +14,17 @@ export const Footer = () => {
               <Image
                 src="/Lovme.png"
                 alt="Lovme Logo"
-                width={72}
-                height={72}
-                className="h-14 w-14 object-contain"
+                width={100}
+                height={100}
+                className="h-20 w-20 object-contain"
               />
-              <h3 className="text-xl font-serif font-semibold text-gold">
-                LOVME
-              </h3>
+              <Image
+                src="/Lovme_schriftzug.png"
+                alt="LOVME Schriftzug"
+                width={140}
+                height={36}
+                className="h-8 w-auto object-contain"
+              />
             </div>
             <p className="text-sm opacity-80 mb-4">
               mit Nicole Angelika Panzer · Finde deine wahre Essenz
@@ -34,13 +38,13 @@ export const Footer = () => {
                 nicole@lov-me.com
               </a>
               <a
-                href="https://lov-me.com"
+                href="https://lovme.at"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 hover:opacity-100 transition-opacity"
               >
                 <Globe className="h-4 w-4" />
-                lov-me.com
+                lovme.at
               </a>
             </div>
           </div>
