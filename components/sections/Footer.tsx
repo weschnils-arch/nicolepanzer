@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { Facebook, Instagram, Linkedin, Mail, Globe } from "lucide-react";
 
 export const Footer = () => {
@@ -9,9 +10,18 @@ export const Footer = () => {
       <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
-            <h3 className="text-xl font-serif font-semibold mb-1 text-gold">
-              LOVME
-            </h3>
+            <div className="flex items-center gap-3 mb-2">
+              <Image
+                src="/Lovme.png"
+                alt="Lovme Logo"
+                width={40}
+                height={40}
+                className="h-10 w-10 object-contain"
+              />
+              <h3 className="text-xl font-serif font-semibold text-gold">
+                LOVME
+              </h3>
+            </div>
             <p className="text-sm opacity-80 mb-4">
               mit Nicole Angelika Panzer · Finde deine wahre Essenz
             </p>
