@@ -41,28 +41,34 @@ export const SegmentSelector = () => {
                       {content.subtitle}
                     </p>
                   )}
-                  <div className="mb-8 lg:min-h-[140px] flex flex-col justify-start">
-                    <p className="text-lg text-muted leading-relaxed">
-                      {content.description}
-                    </p>
-                  </div>
+                  {/* Text + Bullet Points */}
+                  <div className="flex-1 flex flex-col">
+                    <div className="mb-8 lg:min-h-[140px] flex flex-col justify-start">
+                      <p className="text-lg text-muted leading-relaxed">
+                        {content.description}
+                      </p>
+                    </div>
 
-                  <div className="space-y-4 mb-8">
-                    {content.benefits.map((benefit, index) => (
-                      <div key={index} className="flex items-start gap-3">
-                      <div className="mt-1 flex-shrink-0">
-                          <Icon
-                            name={benefit.icon}
-                            size={20}
-                            className="text-gold"
-                          />
+                    <div className="space-y-4 mb-8 lg:min-h-[200px]">
+                      {content.benefits.map((benefit, index) => (
+                        <div key={index} className="flex items-start gap-3">
+                          <div className="mt-1 flex-shrink-0">
+                            <Icon
+                              name={benefit.icon}
+                              size={20}
+                              className="text-gold"
+                            />
+                          </div>
+                          <p className="text-text leading-relaxed break-words">
+                            {benefit.text}
+                          </p>
                         </div>
-                        <p className="text-text leading-relaxed break-words">{benefit.text}</p>
-                      </div>
-                    ))}
+                      ))}
+                    </div>
                   </div>
 
-                  <div className="w-full">
+                  {/* Image */}
+                  <div className="w-full mt-auto">
                     <div className="relative aspect-[16/9] w-full rounded-card overflow-hidden">
                       <Image
                         src={isEssenz ? "/energie-balance.webp" : "/wahreesenz.webp"}
