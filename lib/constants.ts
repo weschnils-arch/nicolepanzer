@@ -43,15 +43,17 @@ export const segmentOptions = {
     ],
   },
   energie: {
-    title: "Mehr Energie & Balance",
-    description: "Für Menschen, die aus dem Hamsterrad aussteigen und wieder zu mehr Lebensqualität finden möchten.",
+    title: "Burnout-Prävention",
+    subtitle: "Stressmanagement für mehr Lebensqualität",
+    description:
+      "Fühlst du dich ständig überfordert, ausgebrannt und verlierst die Freude am Leben? Du funktionierst nur noch, statt wirklich zu leben? Burnout ist ein Zeichen dafür, dass dein Körper und deine Seele um Hilfe rufen. Mein Präventions- und Regenerationsprogramm unterstützt dich dabei, Burnout-Anzeichen frühzeitig zu erkennen und wirksame Gegenstrategien zu entwickeln. Mit energetischer Reinigung, praktischen Stressabbau-Techniken und individueller Begleitung findest du zurück zu deiner Balance und Lebensenergie.",
     benefits: [
       {
         text: "Frühzeitige Erkennung von Burnout-Anzeichen",
         icon: "brain",
       },
       {
-        text: "Energetische Reinigung und Blockaden lösen",
+        text: "Energetische Reinigung und Blockadenlösung",
         icon: "sparkles",
       },
       {
@@ -59,8 +61,12 @@ export const segmentOptions = {
         icon: "activity",
       },
       {
-        text: "Wieder in deine Kraft und Balance kommen",
+        text: "Wiederherstellung deiner inneren Balance",
         icon: "compass",
+      },
+      {
+        text: "Maßgeschneidertes Programm für deine Bedürfnisse",
+        icon: "calendar",
       },
     ],
   },
