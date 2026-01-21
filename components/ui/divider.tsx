@@ -7,9 +7,9 @@ export const Divider = () => {
         <Image
           src="/divider_sun_yellow.webp"
           alt="Divider"
-          width={1200}
-          height={150}
-          className="w-full max-w-[1000px] h-auto"
+          width={600}
+          height={80}
+          className="w-1/2 max-w-[600px] h-auto"
           quality={100}
         />
       </div>
