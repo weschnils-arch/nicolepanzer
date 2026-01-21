@@ -41,6 +41,17 @@ export const Hero = () => {
         />
         {/* Gradient overlay from left to right */}
         <div className="absolute inset-0 bg-gradient-to-r from-bg via-bg/80 via-bg/60 via-bg/40 via-bg/20 to-transparent" />
+        {/* Lovme Logo over image */}
+        <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+          <Image
+            src="/Lovme.png"
+            alt="Lovme Logo"
+            width={260}
+            height={260}
+            className="w-40 sm:w-52 lg:w-64 h-auto opacity-85"
+            priority
+          />
+        </div>
       </div>
 
       <div className="relative z-10 max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8 w-full">
