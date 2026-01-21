@@ -17,7 +17,11 @@ export const OfferSection = () => {
           className="text-center mb-12 lg:mb-16"
         >
           <h2 className="text-3xl lg:text-4xl font-serif font-semibold text-text mb-6">
-            {offerDetails.title}
+            Dein{" "}
+            <span className="text-[#eeba2c]">
+              persönliches
+            </span>{" "}
+            Mentoring-Programm
           </h2>
         </motion.div>
 
