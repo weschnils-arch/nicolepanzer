@@ -41,9 +41,22 @@ export const SegmentSelector = () => {
                       {content.subtitle}
                     </p>
                   )}
-                  <p className="text-lg text-muted mb-8 leading-relaxed lg:min-h-[96px]">
-                    {content.description}
-                  </p>
+                  <div className="mb-4 lg:min-h-[112px] flex flex-col justify-start">
+                    <p
+                      className="text-lg text-muted leading-relaxed"
+                      style={{
+                        display: "-webkit-box",
+                        WebkitLineClamp: 2,
+                        WebkitBoxOrient: "vertical",
+                        overflow: "hidden",
+                      }}
+                    >
+                      {content.description}
+                    </p>
+                    <div className="mt-3 text-center text-sm text-muted cursor-pointer">
+                      Mehr anzeigen
+                    </div>
+                  </div>
 
                   <div className="space-y-4 mb-8 flex-1">
                     {content.benefits.map((benefit, index) => (
