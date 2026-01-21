@@ -80,8 +80,8 @@ export const Footer = () => {
             />
           </div>
 
-          {/* Right: Navigation + Rechtliches, rechtsbündig */}
-          <div className="flex flex-col gap-6 md:items-end md:text-right">
+          {/* Right: Navigation + Rechtliches, rechtsbündig, oben mit linker Spalte ausgerichtet */}
+          <div className="flex flex-col gap-6 md:text-right">
             {/* Navigation + Rechtliches nebeneinander auf der rechten Seite */}
             <div className="flex flex-col md:flex-row md:gap-12 md:justify-end md:text-right">
               <div className="mb-6 md:mb-0">
