@@ -15,24 +15,29 @@ export const trustChips = [
 
 export const segmentOptions = {
   essenz: {
-    title: "Wahre Essenz",
-    description: "Für Frauen und Jugendliche, die ihre innere Stimme finden und ihr volles Potenzial entfalten möchten.",
+    title: "Finde deine wahre Essenz",
+    description:
+      "Viele Menschen verlieren sich im Alltag und verlieren den Kontakt zu ihren eigenen Wünschen und Zielen. Du fragst dich, wer du wirklich bist und was dein Leben erfüllend macht? Mein Mentoring-Programm hilft dir, deine innere Stimme wiederzufinden und dein volles Potenzial zu entfalten. Durch bewährte Methoden aus Yoga, Kinesiologie und energetischer Arbeit begleite ich dich auf dem Weg zu mehr Selbstvertrauen, Klarheit und authentischer Selbstliebe.",
     benefits: [
       {
         text: "Alte Muster loslassen und neue Wege gehen",
         icon: "repeat",
       },
       {
-        text: "Selbstvertrauen und Selbstliebe stärken",
+        text: "Selbstvertrauen und innere Stabilität stärken",
         icon: "heart",
       },
       {
-        text: "Klarheit über deine wahren Wünsche und Ziele",
+        text: "Klarheit über deine wahren Wünsche und Lebensziele",
         icon: "lightbulb",
       },
       {
-        text: "Praktische Werkzeuge für den Alltag",
+        text: "Praktische Werkzeuge für deinen Alltag",
         icon: "activity",
+      },
+      {
+        text: "Persönliches Mentoring mit individueller Begleitung",
+        icon: "compass",
       },
     ],
   },
