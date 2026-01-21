@@ -43,7 +43,7 @@ export const SegmentSelector = () => {
                   )}
                   {/* Text + Bullet Points */}
                   <div className="flex-1 flex flex-col">
-                    <div className="mb-8 lg:min-h-[140px] flex flex-col justify-start">
+                    <div className="mb-8 lg:min-h-[180px] flex flex-col justify-start">
                       <p className="text-lg text-muted leading-relaxed">
                         {content.description}
                       </p>
