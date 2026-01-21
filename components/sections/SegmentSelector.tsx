@@ -63,8 +63,8 @@ export const SegmentSelector = () => {
                   <div className="w-full">
                     <div className="relative aspect-[16/9] w-full rounded-card overflow-hidden">
                       <Image
-                        src={isEssenz ? "/wahreesenz.webp" : "/energie-balance.webp"}
-                        alt={isEssenz ? "Finde deine wahre Essenz" : "Mehr Energie und Balance"}
+                        src={isEssenz ? "/energie-balance.webp" : "/wahreesenz.webp"}
+                        alt={isEssenz ? "Mehr Energie und Balance" : "Finde deine wahre Essenz"}
                         fill
                         className="object-cover"
                         quality={90}
