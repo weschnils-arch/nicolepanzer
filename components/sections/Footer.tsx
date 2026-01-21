@@ -8,19 +8,9 @@ export const Footer = () => {
   return (
     <footer className="bg-text text-white py-12 lg:py-16">
       <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Centered large round logo */}
-        <div className="flex justify-center mb-10">
-          <Image
-            src="/Lovme.png"
-            alt="Lovme Logo"
-            width={200}
-            height={200}
-            className="h-28 w-28 md:h-40 md:w-40 object-contain"
-          />
-        </div>
-
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-          <div>
+          {/* Left: Text + Kontakt */}
+          <div className="flex flex-col">
             <Image
               src="/Lovme_schriftzug.png"
               alt="LOVME Schriftzug"
@@ -51,33 +41,45 @@ export const Footer = () => {
             </div>
           </div>
 
-          <div>
-            <h4 className="text-sm font-semibold mb-4">Navigation</h4>
-            <ul className="space-y-2 text-sm opacity-80">
-              <li>
-                <Link href="/#angebot" className="hover:opacity-100 transition-opacity">
-                  Angebot
-                </Link>
-              </li>
-              <li>
-                <Link href="/#methode" className="hover:opacity-100 transition-opacity">
-                  Methode
-                </Link>
-              </li>
-              <li>
-                <Link href="/#ablauf" className="hover:opacity-100 transition-opacity">
-                  Ablauf
-                </Link>
-              </li>
-              <li>
-                <Link href="/#kontakt" className="hover:opacity-100 transition-opacity">
-                  Kontakt
-                </Link>
-              </li>
-            </ul>
+          {/* Center: Großes rundes Logo, vertikal mittig */}
+          <div className="flex items-center justify-center">
+            <Image
+              src="/Lovme.png"
+              alt="Lovme Logo"
+              width={220}
+              height={220}
+              className="h-32 w-32 md:h-44 md:w-44 object-contain"
+            />
           </div>
 
+          {/* Right: Navigation + Rechtliches + Social, rechtsbündig */}
           <div className="flex flex-col gap-6 md:items-end md:text-right">
+            <div>
+              <h4 className="text-sm font-semibold mb-4">Navigation</h4>
+              <ul className="space-y-2 text-sm opacity-80">
+                <li>
+                  <Link href="/#angebot" className="hover:opacity-100 transition-opacity">
+                    Angebot
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/#methode" className="hover:opacity-100 transition-opacity">
+                    Methode
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/#ablauf" className="hover:opacity-100 transition-opacity">
+                    Ablauf
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/#kontakt" className="hover:opacity-100 transition-opacity">
+                    Kontakt
+                  </Link>
+                </li>
+              </ul>
+            </div>
+
             <div>
               <h4 className="text-sm font-semibold mb-4">Rechtliches</h4>
               <ul className="space-y-2 text-sm opacity-80">
