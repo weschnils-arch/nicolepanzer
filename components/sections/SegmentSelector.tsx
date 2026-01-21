@@ -33,9 +33,14 @@ export const SegmentSelector = () => {
             return (
               <Card key={segmentKey} className="w-full max-w-[540px] h-full self-stretch">
                 <CardContent className="p-8 lg:p-12 h-full flex flex-col">
-                  <h2 className="text-3xl lg:text-4xl font-serif font-semibold text-text mb-4">
+                  <h2 className="text-3xl lg:text-4xl font-serif font-semibold text-text mb-2">
                     {content.title}
                   </h2>
+                  {content.subtitle && (
+                    <p className="text-base text-muted mb-3">
+                      {content.subtitle}
+                    </p>
+                  )}
                   <p className="text-lg text-muted mb-8 leading-relaxed lg:min-h-[96px]">
                     {content.description}
                   </p>

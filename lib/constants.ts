@@ -16,6 +16,7 @@ export const trustChips = [
 export const segmentOptions = {
   essenz: {
     title: "Finde deine wahre Essenz",
+    subtitle: "Mentoring für Identität und Selbstentdeckung",
     description:
       "Viele Menschen verlieren sich im Alltag und verlieren den Kontakt zu ihren eigenen Wünschen und Zielen. Du fragst dich, wer du wirklich bist und was dein Leben erfüllend macht? Mein Mentoring-Programm hilft dir, deine innere Stimme wiederzufinden und dein volles Potenzial zu entfalten. Durch bewährte Methoden aus Yoga, Kinesiologie und energetischer Arbeit begleite ich dich auf dem Weg zu mehr Selbstvertrauen, Klarheit und authentischer Selbstliebe.",
     benefits: [
