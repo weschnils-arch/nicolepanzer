@@ -14,7 +14,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
         className={cn(
           "inline-flex items-center justify-center rounded-full font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 whitespace-nowrap",
           {
-            "bg-gradient-to-r from-gold to-[#eeba2c] text-text hover:from-[#eeba2c] hover:to-gold focus:ring-gold":
+            "bg-gradient-to-r from-[#f9df96] via-[#f4cf6a] to-[#eeba2c] text-text shadow-sm hover:-translate-y-0.5 hover:shadow-md hover:brightness-105 focus:ring-[#eeba2c]":
               variant === "primary",
             "bg-gold text-white hover:bg-gold/90 focus:ring-gold":
               variant === "secondary",
