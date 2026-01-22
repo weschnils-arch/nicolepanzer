@@ -18,7 +18,7 @@ export const segmentOptions = {
     title: "Finde deine wahre Essenz",
     subtitle: "Mentoring für Identität und Selbstentdeckung",
     description:
-      "Fühlst du dich im Alltag verloren und fragst dich, wer du wirklich bist? Mein Mentoring-Programm begleitet dich auf dem Weg zu deiner wahren Essenz, mehr Klarheit und authentischer Selbstliebe.",
+      "Fühlst du dich im Alltag verloren und fragst dich, wer du wirklich bist und was dein Leben wahrhaft erfüllt? Mein Mentoring-Programm begleitet dich auf dem Weg zu deiner wahren Essenz, mehr Klarheit und authentischer Selbstliebe.",
     benefits: [
       {
         text: "Alte Muster loslassen und neue Wege gehen",
@@ -46,7 +46,7 @@ export const segmentOptions = {
     title: "Burnout-Prävention",
     subtitle: "Stressmanagement für mehr Lebensqualität",
     description:
-      "Wenn der Alltag deine Energie raubt und du nur noch funktionierst, statt wirklich zu leben, ist es Zeit für eine Veränderung. Mein Präventionsprogramm hilft dir, mit wirksamen Strategien zurück in deine Balance und Lebensenergie zu finden.",
+      "Wenn der Alltag deine ganze Energie raubt und du nur noch funktionierst, statt wirklich zu leben, ist es Zeit für Veränderung. Mein Präventionsprogramm hilft dir, mit wirksamen Strategien zurück in deine Balance und Lebensenergie zu finden.",
     benefits: [
       {
         text: "Frühzeitige Erkennung von Burnout-Anzeichen",
