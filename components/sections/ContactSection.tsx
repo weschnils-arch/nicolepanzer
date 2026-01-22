@@ -111,11 +111,8 @@ export const ContactSection = () => {
                     className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent focus:bg-white transition-all"
                   >
                     <option value="">Bitte wählen</option>
-                    <option value="yoga-kurse">Yoga Kurse</option>
-                    <option value="einzel-sitzungen">Einzel Sitzungen</option>
-                    <option value="weiterbildungen-seminare">Weiterbildungen & Seminare</option>
-                    <option value="tierkommunikation">Tierkommunikation</option>
-                    <option value="mentorship-programm">Mentorship Programm</option>
+                    <option value="meine-wahre-essenz">Meine Wahre Essenz</option>
+                    <option value="burnout-pravention">Burnout Prävention</option>
                   </select>
                 </div>
 
