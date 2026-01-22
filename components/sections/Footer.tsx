@@ -12,12 +12,11 @@ export const Footer = () => {
           {/* Left Column: Branding, Contact, Social Media */}
           <div className="flex flex-col items-start w-full">
             <Image
-              src="/Lovme_schriftzug.png"
+              src="/Lovme_schriftzug.webp"
               alt="LOVME Schriftzug"
               width={160}
               height={40}
               className="h-8 w-auto object-contain mb-3 self-start"
-              unoptimized
             />
             <p className="text-sm opacity-80 mb-6 leading-relaxed">
               mit Nicole Angelika Panzer · Finde deine wahre Essenz
@@ -73,12 +72,11 @@ export const Footer = () => {
           {/* Center Column: Large Round Logo */}
           <div className="flex items-center justify-center">
             <Image
-              src="/Lovme.png"
+              src="/Lovme.webp"
               alt="Lovme Logo"
               width={220}
               height={220}
               className="h-32 w-32 md:h-44 md:w-44 object-contain"
-              unoptimized
             />
           </div>
 
