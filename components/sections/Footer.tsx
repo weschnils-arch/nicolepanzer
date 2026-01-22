@@ -81,7 +81,7 @@ export const Footer = () => {
           </div>
 
           {/* Right Column: Navigation & Legal */}
-          <div className="flex flex-col md:text-right">
+          <div className="flex flex-col md:text-right md:pt-11">
             <div className="flex flex-col md:flex-row md:gap-12 md:justify-end">
               <div className="mb-6 md:mb-0">
                 <h4 className="text-sm font-semibold mb-4">Navigation</h4>
