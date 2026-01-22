@@ -8,8 +8,8 @@ export const Footer = () => {
   return (
     <footer className="bg-text text-white py-10 lg:py-14">
       <div className="max-w-[1040px] mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-          {/* Left: Schriftzug + Kontakt + Social Media */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 mb-8">
+          {/* Left Column: Branding, Contact, Social Media */}
           <div className="flex flex-col">
             <Image
               src="/Lovme_schriftzug.png"
@@ -18,15 +18,16 @@ export const Footer = () => {
               height={40}
               className="h-8 w-auto object-contain mb-3"
             />
-            <p className="text-sm opacity-80 mb-4">
+            <p className="text-sm opacity-80 mb-6 leading-relaxed">
               mit Nicole Angelika Panzer · Finde deine wahre Essenz
             </p>
-            <div className="space-y-2 text-sm opacity-80">
+            
+            <div className="space-y-3 text-sm opacity-80 mb-6">
               <a
                 href="mailto:nicole@lov-me.com"
                 className="flex items-center gap-2 hover:opacity-100 transition-opacity"
               >
-                <Mail className="h-4 w-4" />
+                <Mail className="h-4 w-4 flex-shrink-0" />
                 nicole@lov-me.com
               </a>
               <a
@@ -35,13 +36,12 @@ export const Footer = () => {
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 hover:opacity-100 transition-opacity"
               >
-                <Globe className="h-4 w-4" />
+                <Globe className="h-4 w-4 flex-shrink-0" />
                 lovme.at
               </a>
             </div>
 
-            {/* Social Media unter lovme.at, linksbündig */}
-            <div className="mt-6">
+            <div>
               <h4 className="text-sm font-semibold mb-4">Social Media</h4>
               <div className="flex gap-4">
                 <a
@@ -69,7 +69,7 @@ export const Footer = () => {
             </div>
           </div>
 
-          {/* Center: Großes rundes Logo, vertikal mittig */}
+          {/* Center Column: Large Round Logo */}
           <div className="flex items-center justify-center">
             <Image
               src="/Lovme.png"
@@ -80,10 +80,9 @@ export const Footer = () => {
             />
           </div>
 
-          {/* Right: Navigation + Rechtliches, rechtsbündig, oben mit linker Spalte ausgerichtet */}
-          <div className="flex flex-col gap-6 md:text-right">
-            {/* Navigation + Rechtliches nebeneinander auf der rechten Seite */}
-            <div className="flex flex-col md:flex-row md:gap-12 md:justify-end md:text-right">
+          {/* Right Column: Navigation & Legal */}
+          <div className="flex flex-col md:text-right">
+            <div className="flex flex-col md:flex-row md:gap-12 md:justify-end">
               <div className="mb-6 md:mb-0">
                 <h4 className="text-sm font-semibold mb-4">Navigation</h4>
                 <ul className="space-y-2 text-sm opacity-80">
@@ -132,10 +131,10 @@ export const Footer = () => {
                 </ul>
               </div>
             </div>
-
           </div>
         </div>
 
+        {/* Copyright */}
         <div className="border-t border-white/20 pt-8 text-center text-sm opacity-80">
           <p>
             © {new Date().getFullYear()} Nicole Angelika Panzer. Alle Rechte vorbehalten.
