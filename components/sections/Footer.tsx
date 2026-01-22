@@ -17,6 +17,7 @@ export const Footer = () => {
               width={160}
               height={40}
               className="h-8 w-auto object-contain mb-3 self-start"
+              unoptimized
             />
             <p className="text-sm opacity-80 mb-6 leading-relaxed">
               mit Nicole Angelika Panzer · Finde deine wahre Essenz
@@ -77,6 +78,7 @@ export const Footer = () => {
               width={220}
               height={220}
               className="h-32 w-32 md:h-44 md:w-44 object-contain"
+              unoptimized
             />
           </div>
 
