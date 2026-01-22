@@ -10,7 +10,7 @@ export const Footer = () => {
       <div className="max-w-[1040px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 mb-8">
           {/* Left Column: Branding, Contact, Social Media */}
-          <div className="flex flex-col items-start">
+          <div className="flex flex-col items-start w-full">
             <Image
               src="/Lovme_schriftzug.png"
               alt="LOVME Schriftzug"
