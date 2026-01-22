@@ -10,13 +10,13 @@ export const Footer = () => {
       <div className="max-w-[1040px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 mb-8">
           {/* Left Column: Branding, Contact, Social Media */}
-          <div className="flex flex-col">
+          <div className="flex flex-col items-start">
             <Image
               src="/Lovme_schriftzug.png"
               alt="LOVME Schriftzug"
               width={160}
               height={40}
-              className="h-8 w-auto object-contain mb-3"
+              className="h-8 w-auto object-contain mb-3 self-start"
             />
             <p className="text-sm opacity-80 mb-6 leading-relaxed">
               mit Nicole Angelika Panzer · Finde deine wahre Essenz
